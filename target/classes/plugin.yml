@@ -1,0 +1,20 @@
+name: MCLoreChat
+main: com.gmail.zephjs.mclorechat.Main
+author: HeartOfChaos
+version: 1.0.1
+api-version: 1.14
+commands:
+   sendlore:
+      description: Sends held item lore to designated channel.
+      usage: /sendlore
+      permission: loreitems.send
+permissions:
+  loreitems.*: 
+    description: Grants access to all McLoreChat commands.
+    children:
+      loreitems.send: true
+  loreitems.send:
+    description: Allows you to send lore from an item you're holding to the designated lore channel.
+    default: op
+
+
