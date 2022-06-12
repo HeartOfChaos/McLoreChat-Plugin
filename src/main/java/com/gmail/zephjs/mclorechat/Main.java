@@ -8,7 +8,6 @@ import java.io.IOException;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-// Token NzUwNDc3MzUyNjMwMjIzMDIw.X07GgA.xknDuGFbMEzceSTTOgrMKqzAQeA
 import org.bukkit.plugin.java.JavaPlugin;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
